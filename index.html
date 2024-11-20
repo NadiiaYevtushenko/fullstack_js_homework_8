@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float and Margin Example</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main-content">
+
+    <h1>Homework 8.1. Fix the Float Layout. Float and Margin Example</h1>
+
+    <!-- 1 block left | 1 block right -->
+    <div class="container">
+      <div class="block float-left"></div>
+      <div class="block float-right"></div>
+    </div>
+
+    <!-- 1 block left | 3 block right -->
+    <div class="container">
+      <div class="block float-left"></div>
+      <div class="block float-right"></div>
+      <div class="block float-right"></div>
+      <div class="block float-right"></div>
+    </div>
+
+    <!-- 2 block left | 2 block right -->
+    <div class="container">
+      <div class="block float-left"></div>
+      <div class="block float-left"></div>
+      <div class="block float-right"></div>
+      <div class="block float-right"></div>
+    </div>
+
+    <!-- 3 blocks aligned to the right (two stacked vertically) -->
+    <div class="container">
+      <!-- move left all block -->
+      <div class="block-lg margin-left-auto">
+        <!-- block left in the block -->
+        <div class="block-mid float-left">
+        </div>
+        <!-- blocks right in the block -->
+        <div class="block-sm float-right marginbotton--zero">
+        </div>
+        <div class="block-sm float-right">
+        </div>
+        <!-- <div class="block-sm float-right">
+      </div> -->
+      </div>
+    </div>
+
+    <!-- 3 blocks centered (two stacked vertically) -->
+    <div class="container">
+      <!-- move left all block -->
+      <div class="block-lg center-block">
+        <!-- block left in the block -->
+        <div class="block-mid float-left">
+        </div>
+        <!-- blocks right in the block -->
+        <div class="block-sm float-right marginbotton--zero">
+        </div>
+        <div class="block-sm float-right">
+        </div>
+        <!-- <div class="block-sm float-right">
+      </div> -->
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

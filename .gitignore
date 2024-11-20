@@ -1,0 +1,10 @@
+# folders
+
+.idea/
+.vscode/
+.node_modues/
+
+# files
+
+.DS_Store
+.editorconfig
